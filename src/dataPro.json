@@ -1,0 +1,67 @@
+[
+    {
+        "id":1,
+        "productTitle": "Jumping the Gun",
+        "profilePicture":  "/_Logo (1).png",
+        "productImage":"/pexels-ann-zzz-10295709.jpg",
+        "user":"cheese_plate",
+        "price": "$12.90",
+        "description": "They had made it to Las Vegas, wide-eyed and with so much hope and energy. They had planned the trip for more than a year and both were so excited they could barely control themselves. They still hadn't realized that Las Vegas promised a place where dreams come true, it was actually the place where dreams came to die."
+
+    },
+
+    {
+        "id":2,
+        "productTitle": "Knuckle Down",
+        "profilePicture":  "/_Logo (2).png",
+        "productImage":"/pexels-koolshooters-6976094.jpg",
+        "user":"coffee_king",
+        "price": "$90.89",
+        "description":  "He dropped the ball. While most people would think that this was a metaphor of some type, in Joe's case it was absolutely literal. He had hopes of reaching the Major League and that dream was now it great jeopardy. All because he had dropped the ball."
+
+    },
+
+    {
+        "id":3,
+        "productTitle": "I Smell a Rat",
+        "profilePicture":  "/_Logo (3).png",
+        "productImage":"/pexels-koolshooters-6976605.jpg",
+        "user":"handsome_bird",
+        "price":"$200.50",
+        "description":"Sometimes it's the first moment of the day that catches you off guard. That's what Wendy was thinking. She opened her window to see fire engines screeching down the street. While this wasn't something completely unheard of, it also wasn't normal. It was a sure sign of what was going to happen that day. She could feel it in her bones and it wasn't the way she wanted the day to begin."
+
+    },
+
+    {
+        "id":4,
+        "productTitle": "Cry Over Spilt Milk",
+        "profilePicture":  "/_Logo (4).png",
+        "productImage":"/pexels-karolina-grabowska-6958783.jpg",
+        "user":"seal_the_deal",
+        "price":"$120.24",
+        "description": "The time to take action was now. All three men knew in their hearts this was the case, yet none of them moved a muscle to try. They were all watching and waiting for one of the others to make the first move so they could follow a step or two behind and help. The situation demanded a leader and all three men were followers."
+
+    },
+
+    {
+        "id":5,
+        "productTitle": "Playing For Keeps",
+        "profilePicture":  "/_Logo (5).png",
+        "productImage":"/pexels-erika-ortiz-10895948.jpg",
+        "user":"tick_tock",
+        "price":"$1002.90",
+        "description": "It was a simple green chair. There was nothing extraordinary about it or so it seemed. It was the type of chair one would pass without even noticing it was there, let alone what the actual color of it was. It was due to this common and unassuming appearance that few people actually stopped to sit in it and discover its magical powers."
+
+    },
+
+    {
+        "id":6,
+        "productTitle": "Mountain Out of a Molehill",
+        "profilePicture":  "/_Logo (6).png",
+        "productImage":"/pexels-martin-péchy-407423.jpg",
+        "user":"tv_night_alone",
+        "price":"$1200.90",
+        "description": "She wondered if the note had reached him. She scolded herself for not handing it to him in person. She trusted her friend, but so much could happen. She waited impatiently for word."
+
+    }
+]

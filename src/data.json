@@ -1,0 +1,57 @@
+[
+    {
+        "id":1,
+        "coverImg":"/ilya-bronskiy-Nv-sAk0opn8-unsplash.jpg",
+        "user":"cheese_plate"
+
+    },
+
+    {
+        "id":2,
+        "coverImg":"/pexels-designecologist-3458448.jpg",
+        "user":"coffee_king"
+
+    },
+
+    {
+        "id":3,
+        "coverImg":"/lukasz-rawa-hxIB2BtLpx4-unsplash.jpg",
+        "user":"handsome_bird"
+
+    },
+
+    {
+        "id":4,
+        "coverImg":"/philipp-pilz-orzc5mDgqP8-unsplash.jpg",
+        "user":"seal_the_deal"
+
+    },
+
+    {
+        "id":5,
+        "coverImg":"/pexels-agnese-lunecka-9988441.jpg",
+        "user":"tick_tock"
+
+    },
+
+    {
+        "id":6,
+        "coverImg":"/pexels-anete-lusina-5721901.jpg",
+        "user":"tv_night_alone"
+
+    },
+
+    {
+        "id":7,
+        "coverImg":"/pexels-евгений-шухман-9879548.jpg",
+        "user":"euro_slayer"
+
+    },
+
+    {
+        "id":8,
+        "coverImg":"/pexels-ata-ebem-10863286.jpg",
+        "user":"none_seated"
+
+    }
+]

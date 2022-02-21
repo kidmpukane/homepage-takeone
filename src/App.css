@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
+* {
+
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #11100f;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.container {
+
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+/*-------------Nav Bar Styling-------------------*/
+
+.nav-bar {
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.8em;
+  z-index: 1;
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  background-color: #202427;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__display {
+
+  background-color: #d1d6d9;
+}
+
+.nav-basket {
+
+  width: 40px;
+  object-fit: contain;
+}
+
+.nav-menu {
+
+  width: 40px;
+  object-fit: contain;
+}
+
+section {
+
+  padding: -5%;
+  
+}
+
+
+/*----------------Button-Styling-----------------------*/
+
+.button-list-header {
+
+  
+  color: #d1d6d9;
+  font-weight: bold;
+  padding-left: 1.5em;
+  padding-top: -1em;
+}
+
+.button-list  {
+  
+  padding: 1em;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.button-list::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-1, .btn-2, .btn-3 ,.btn-4, .btn-5, .btn-6,
+.btn-7, .btn-8, .btn-9, .btn-10, .btn-11, .btn-12{
+
+  width: 100%;
+  height: 20%;
+  padding: 20px 40px;
+  margin-right: 1em;
+
+  background-color:#202427;
+  color: #d1d6d9;
+  font-size: 10px;
+  font-family: 'Trebuchet MS', sans-serif, #d1d6d9;
+  font-weight: bold;
+
+  border: 0px;
+  border-radius: 50px;
+}
+
+
+/*-----------------Card-Styling------------------*/
+
+.storie-card-list  {
+
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.card-list::-webkit-scrollbar {
+
+  display: none;
+}
+
+.storie-cards {
+
+  padding: 0%;
+  padding-top: 25%;
+  padding-left: 5%;
+  border-radius: 2.1em;
+  margin-right: 2em;
+}
+
+.storie-card-image  {
+
+  padding: 0.2em;
+  width: 8em;
+  height: 10em;
+  border-radius: 2.1em;
+  margin-bottom: 2.1em;
+}
+
+/* ---------------Product Image------------------ */
+
+.product-card-list  {
+
+  display: grid;
+  margin: 2rem;
+  gap:  1rem;
+  grid-template-columns: 1fr;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.product-card-image {
+
+  height: 100%;
+  width: 100%;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+/* ---------------Product Card------------------ */
+
+.card-container {
+
+  top: -30%;
+  left: 0;
+  right: 0;
+  bottom: 0s;
+  margin: auto;
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  padding: 5%;
+  background-color: rgba(17, 17, 17, 0.637);
+  color: black;
+}
+
+.product-card-text  {
+
+  display: grid;
+  float: right;
   color: white;
 }
+.profile-picture  {
 
-.App-link {
-  color: #61dafb;
+  width: 25%;
+  height: 25%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  opacity: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-title  {
+  
+  font-size: medium;
+  font-weight: bold;
+  font-size: small;
+}
+
+.price  {
+  
+  font-weight: bold;
+  font-size: small;
+  color: white;
 }
